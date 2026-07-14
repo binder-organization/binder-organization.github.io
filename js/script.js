@@ -1,20 +1,3 @@
-function getPref(key, fallback) {
-    try {
-        var v = localStorage.getItem(key);
-        if (v !== null && v !== undefined && v !== '') return v;
-    } catch (e) {}
-    var c = document.cookie.match(new RegExp('(^| )' + key + '=([^;]+)'));
-    if (c) return decodeURIComponent(c[2]);
-    return fallback;
-}
-
-function setPref(key, val) {
-    try { localStorage.setItem(key, val); } catch (e) {}
-    var date = new Date();
-    date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
-    document.cookie = key + '=' + encodeURIComponent(val) + ';expires=' + date.toUTCString() + ';path=/;SameSite=Lax';
-}
-
 function initApp() {
     var hamburger = document.querySelector('.hamburger');
     var navLinks = document.querySelector('.nav-links');

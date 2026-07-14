@@ -61,6 +61,11 @@ var i18n = {
     "home.feature.docs.wutong.title": "梧桐 开发者文档",
     "home.feature.docs.wutong.desc": "了解如何为梧桐作贡献。",
     "home.feature.docs.wutong.link": "查看 →",
+    "home.feature.baihua.title": "白桦服务端",
+    "home.feature.baihua.desc": "为开发人员定制的团队沟通工具。",
+    "home.feature.docs.baihua.title": "白桦服务端-文档",
+    "home.feature.docs.baihua.desc": "在Web上查看应用白桦的实用指南。",
+    "home.feature.docs.baihua.link": "查看 →",
   },
   en: {
     "page.title.home": "Home - Binder",
@@ -128,6 +133,11 @@ var i18n = {
     "home.feature.docs.wutong.title": "Wutong Developer Docs",
     "home.feature.docs.wutong.desc": "Learn how to contribute to Wutong.",
     "home.feature.docs.wutong.link": "View →",
+    "home.feature.baihua.title": "Baihua Server",
+    "home.feature.baihua.desc": "A team communication tool customized for developers.",
+    "home.feature.docs.baihua.title": "Baihua Server Docs",
+    "home.feature.docs.baihua.desc": "A practical guide to using Baihua on the web.",
+    "home.feature.docs.baihua.link": "View →",
   },
 };
 
