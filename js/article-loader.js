@@ -103,7 +103,7 @@ function compareArticles(firstArticle, secondArticle) {
 }
 
 function fetchArticleJson(fileUrl) {
-    return fetch(fileUrl).then(function (response) {
+    return fetch(fileUrl, { cache: "no-store" }).then(function (response) {
         if (!response.ok) {
             throw new Error("HTTP " + response.status + " -> " + fileUrl);
         }

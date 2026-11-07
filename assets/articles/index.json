@@ -1,5 +1,6 @@
 {
   "files": [
+    "baihua_introduction.json",
     "baihua_client_tui_alpha_release.json",
     "migration_notice.json"
   ]
