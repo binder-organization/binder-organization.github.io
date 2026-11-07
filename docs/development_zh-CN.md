@@ -4,7 +4,8 @@
 
 | 路径 | 用途 |
 | --- | --- |
-| `index.html`、`article.html`、`products.html`、`docs.html`、`contact.html`、`about.html` | 静态网站页面 |
+| `index.html`、`article.html`、`products.html`、`docs.html`、`about.html` | 关于与联系页面 |
+| `contact.html` | 跳转到关于与联系页的兼容入口 |
 | `css/style.css` | 共用响应式布局和主题样式 |
 | `js/script.js`、`js/i18n.js` | 导航、偏好设置和界面翻译 |
 | `js/article-loader.js` | 加载文章索引、语言切换和安全的 Markdown 渲染 |

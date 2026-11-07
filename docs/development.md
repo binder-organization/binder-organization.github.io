@@ -4,7 +4,8 @@
 
 | Path | Purpose |
 | --- | --- |
-| `index.html`, `article.html`, `products.html`, `docs.html`, `contact.html`, `about.html` | Static website pages |
+| `index.html`, `article.html`, `products.html`, `docs.html`, `about.html` | About and contact page |
+| `contact.html` | Compatibility redirect to the about and contact page |
 | `css/style.css` | Shared responsive layout and theme styles |
 | `js/script.js`, `js/i18n.js` | Navigation, preferences, and interface translations |
 | `js/article-loader.js` | Article manifest loading, language selection, and safe Markdown rendering |

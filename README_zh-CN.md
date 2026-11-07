@@ -5,7 +5,6 @@
 ## 必达的官方网站
 
 [![作者: ChepleBob](https://img.shields.io/badge/作者-ChepleBob-00B4D8)](https://github.com/ChepleBob30)
-[![许可证: Apache v2](https://img.shields.io/badge/许可证-Apache%20v2-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 
 [English](README.md) | 简体中文
 
@@ -17,7 +16,7 @@
 - [总览](#总览)
 - [如何发表文章](#如何发表文章)
 - [项目文档](docs/README_zh-CN.md)
-- [许可证](#许可证)
+- [版权声明](#版权声明)
 - [尾声](#尾声)
 
 ---
@@ -59,9 +58,9 @@
 
 ---
 
-## 许可证
+## 版权声明
 
-[Apache v2](LICENSE), Copyright 2026 ChepleBob.
+Copyright © 2026 Binder, All rights reserved.
 
 ---
 

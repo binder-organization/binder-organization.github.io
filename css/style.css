@@ -710,7 +710,6 @@ body.menu-open {
     display: flex;
     flex-direction: column;
     max-width: 860px;
-    min-height: 60vh;
     margin: 0 auto;
     padding: 2.75rem 3rem;
     background: var(--light-bg);
@@ -748,7 +747,7 @@ body.menu-open {
 
 /* header 左对齐；与相邻部分之间明显留白，部分内部行距不变 */
 .article-box-header {
-    margin-top: 3.5rem;
+    margin-top: 1.75rem;
     font-size: 1.2rem;
     line-height: 1.9;
     color: var(--text-color);
@@ -759,7 +758,7 @@ body.menu-open {
 /* content 比其余层级再往里收一点，不贴着矩形边缘 */
 .article-box-content {
     flex: 1;
-    margin-top: 3.5rem;
+    margin-top: 1.75rem;
     padding: 0 1.25rem;
     font-size: 1.15rem;
     line-height: 1.95;
@@ -839,6 +838,17 @@ body.menu-open {
     color: var(--text-secondary);
     color: color-mix(in srgb, var(--text-secondary) 55%, var(--text-color));
     text-align: right;
+}
+
+.article-license {
+    margin-top: 1.5rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.article-license a {
+    color: var(--primary-color);
 }
 
 @media (max-width: 960px) {
