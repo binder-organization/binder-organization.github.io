@@ -24,8 +24,9 @@ var i18n = {
     "banner.contact.title": "联系",
     "banner.contact.subtitle": "与我们进行交流。",
     "banner.about.title": "关于",
-    "banner.about.subtitle": "谈谈我们的故事。",
+    "banner.about.subtitle": "了解必达团队，并与我们取得联系。",
     "contact.email.title": "电子邮件",
+    "contact.email.label": "邮箱地址：",
     "contact.email.desc": "邮箱地址：binder2025@outlook.com",
     "contact.github.title": "GitHub 组织",
     "contact.github.desc": "访问我们的 GitHub 组织：Binder-必达。",
@@ -33,10 +34,10 @@ var i18n = {
     "about.github.members": "成员",
     "about.github.link": "查看个人资料 →",
     "about.github.cheplebob30":
-      "必达联合创始人，负责规划必达发展方向并开发客户端，开发项目有白桦客户端。\ncheple_bob@outlook.com",
+      "Cheple Bob 是必达联合创始人，也是一名高中生开发者，目前主要维护面向开发者团队的即时通信项目“白桦客户端”。他负责客户端的功能设计与实现，围绕终端用户界面、接近 Coding Agent 的操作逻辑、协作流程和使用体验持续迭代，并参与必达的产品方向规划。他关注 Rust、桌面应用与交互设计，希望让开发者无需频繁切换工具，也能在熟悉的终端环境中安全、高效地沟通协作。\ncheple_bob@outlook.com",
     "about.github.gavzheng":
-      "必达联合创始人，负责命令行工具开发与宣传，开发经验丰富，开发项目有白桦服务端。\ngav.zheng@outlook.com",
-    "footer.copyright": "© 2026 必达. 保留所有权利。",
+      "Gavin Zheng 是必达联合创始人，也是一名高中生开发者，目前主要维护面向开发者团队的即时通信项目“白桦服务端”。他负责服务端的功能设计与实现，围绕可自行部署的分布式架构、通信服务、协作支持和运维体验持续迭代，并承担必达的命令行工具开发与项目宣传。他关注 Rust、Python、跨平台软件与开源协作，希望为白桦客户端提供稳定、可控且尊重隐私的后端基础。\ngav.zheng@outlook.com",
+    "footer.copyright": "Copyright © 2026 Binder, All rights reserved.",
     "home.feature.articles.title": "文章",
     "home.feature.articles.desc": "查找关键信息，浏览最新产品。",
     "home.feature.articles.link": "查看 →",
@@ -50,7 +51,7 @@ var i18n = {
     "home.feature.contact.desc": "了解如何联系或加入我们。",
     "home.feature.contact.link": "查看 →",
     "home.feature.about.title": "关于",
-    "home.feature.about.desc": "了解我们的故事。",
+    "home.feature.about.desc": "了解团队成员、项目与联系方式。",
     "home.feature.about.link": "查看 →",
     "home.feature.rc.desc":
       "基于egui构建的跨平台GUI框架，用Rust开发GUI项目最简单的方式。",
@@ -74,6 +75,7 @@ var i18n = {
     "articles.empty": "暂无文章。",
     "articles.loadFailed": "文章加载失败，请通过 HTTP 访问本站。",
     "articles.notFound": "未找到该文章。",
+    "articles.license": "本文采用",
   },
   en: {
     "page.title.home": "Home - Binder",
@@ -101,8 +103,9 @@ var i18n = {
     "banner.contact.title": "Contact",
     "banner.contact.subtitle": "Get in touch with us.",
     "banner.about.title": "About",
-    "banner.about.subtitle": "The story behind Binder.",
+    "banner.about.subtitle": "Meet the Binder team and get in touch.",
     "contact.email.title": "Email",
+    "contact.email.label": "Email address: ",
     "contact.email.desc": "Email address: binder2025@outlook.com",
     "contact.github.title": "GitHub Organization",
     "contact.github.desc": "Visit our GitHub organization: Binder-必达.",
@@ -110,10 +113,10 @@ var i18n = {
     "about.github.members": "Members",
     "about.github.link": "View Profile →",
     "about.github.cheplebob30":
-      "Co-founder of Binder, responsible for planning the direction of Binder and developing the client. Developed project: Baihua Client.\ncheple_bob@outlook.com",
+      "Cheple Bob is a co-founder of Binder and a high school student developer who currently maintains Baihua Client, an instant-messaging application for developer teams. He designs and implements client features, continually improving its terminal interface, Coding Agent-inspired interaction model, collaboration workflow, and overall user experience while helping shape Binder's product direction. His interests include Rust, desktop applications, and interaction design, and he aims to help developers communicate securely and efficiently from the familiar terminal environment without repeatedly switching tools.\ncheple_bob@outlook.com",
     "about.github.gavzheng":
-      "Co-founder of Binder, responsible for developing and promoting command-line tools, with rich development experience. Developed project: Baihua Server.\ngav.zheng@outlook.com",
-    "footer.copyright": "© 2026 Binder. All rights reserved.",
+      "Gavin Zheng is a co-founder of Binder and a high school student developer who currently maintains Baihua Server, the backend of an instant-messaging project for developer teams. He designs and implements server features, continually improving its self-hostable distributed architecture, communication services, collaboration support, and operational experience while developing Binder's command-line tools and promoting its projects. His interests include Rust, Python, cross-platform software, and open-source collaboration, and he aims to provide Baihua Client with a stable, controllable, and privacy-conscious backend foundation.\ngav.zheng@outlook.com",
+    "footer.copyright": "Copyright © 2026 Binder, All rights reserved.",
     "home.feature.articles.title": "Articles",
     "home.feature.articles.desc":
       "Find the key information and browse the latest products.",
@@ -130,7 +133,7 @@ var i18n = {
     "home.feature.contact.desc": "Learn how to contact or join us.",
     "home.feature.contact.link": "View →",
     "home.feature.about.title": "About",
-    "home.feature.about.desc": "Learn about our story.",
+    "home.feature.about.desc": "Meet the team, explore our work, and find our contact details.",
     "home.feature.about.link": "View →",
     "home.feature.rc.desc":
       "Cross-platform GUI framework built with egui, the simplest way to develop GUI projects in Rust.",
@@ -154,6 +157,7 @@ var i18n = {
     "articles.empty": "No articles yet.",
     "articles.loadFailed": "Failed to load articles. Please visit this site over HTTP.",
     "articles.notFound": "Article not found.",
+    "articles.license": "This article is licensed under",
   },
 };
 
