@@ -4,9 +4,7 @@
 
 ## Binder Official Website
 
-[![Author: ChepleBob](https://img.shields.io/badge/Author-ChepleBob-00B4D8)](https://github.com/ChepleBob30)
-
-English | [简体中文](README_zh-CN.md)
+[English](README.md) | [简体中文](README_zh-CN.md)
 
 ---
 
@@ -15,7 +13,8 @@ English | [简体中文](README_zh-CN.md)
 - [Changelog](#changelog)
 - [Overview](#overview)
 - [How to Publish an Article](#how-to-publish-an-article)
-- [Documentation](docs/README.md)
+- [Documentation](#documentation)
+- [Contributors](#contributors)
 - [Copyright](#copyright)
 - [Closing](#closing)
 
@@ -25,18 +24,17 @@ English | [简体中文](README_zh-CN.md)
 
 ### Added
 
-- Brand-new article page `article.html`;
-- Article publishing tools `article_convertor.py` and `build_article_index.py`;
-- Automated article index workflow.
+- Support loading articles in `markdown` format(v2).
+- Update an article.
 
 ### Changed
 
-- Updated several images;
-- Improved layouts on the home, products, and docs pages.
+- Merge the `About` and `Contact` pages.
+- Improve the workflow.
 
 ### Fixed
 
-- Layout issues on narrow viewports in Firefox.
+- Address several known issues.
 
 ---
 
@@ -52,9 +50,16 @@ The short workflow is: write Chinese and English Markdown files, convert them to
 
 ## Documentation
 
-- [Article publishing guide](docs/article-publishing.md)
-- [Develop and preview the website](docs/development.md)
-- [Documentation index](docs/README.md)
+- [Article publishing guide](docs/article-publishing.md) — bilingual Markdown format, metadata, conversion, preview, and pull request checklist.
+- [Develop and preview the website](docs/development.md) — local server, project structure, and article index workflow.
+- [Chinese document entry - 中文文档入口](README_zh-CN.md)
+
+---
+
+## Contributors
+<a href="https://github.com/binder-organization/binder-organization.github.io/contributors">
+  <img src="https://contrib.rocks/image?repo=binder-organization/binder-organization.github.io" alt="Contributors"/>
+</a>
 
 ---
 
