@@ -83,7 +83,7 @@ Fork the official repository, add the generated article JSON and copied images u
 - Provide Chinese and English versions.
 - Keep the article related to Binder and format it so it displays cleanly.
 - Use an accurate publication date; do not plagiarize existing articles or impersonate another author.
-- Distribute the article under the `CC BY` license.
+- Distribute the article under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 - Keep the article pull request limited to `assets/articles/` and follow the repository's safety and open-source guidelines.
 
 Critical or opposing opinions are welcome and are not, on their own, a reason for rejection.

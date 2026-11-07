@@ -260,7 +260,12 @@ function renderArticleReading(article) {
     metaLine.appendChild(createArticleElement("span", "article-box-time", view.postTime));
     articleBox.appendChild(metaLine);
 
-    articleBox.appendChild(createArticleElement("header", "article-box-header", view.header));
+    var licenseNotice = createElementLicenseNotice();
+    articleBox.appendChild(licenseNotice);
+
+    if (view.header.trim()) {
+        articleBox.appendChild(createArticleElement("header", "article-box-header", view.header));
+    }
 
     var contentBlock = createArticleElement("div", "article-box-content");
     view.content.forEach(function (paragraph) {
@@ -277,6 +282,25 @@ function renderArticleReading(article) {
         footerBlock.appendChild(createArticleElement("p", "", line));
     });
     articleBox.appendChild(footerBlock);
+
+}
+
+function createElementLicenseNotice() {
+    var licenseNotice = createArticleElement("p", "article-license");
+    var licenseText = createArticleElement(
+        "span",
+        "",
+        getTranslatedText("articles.license", "本文采用"),
+    );
+    licenseText.setAttribute("data-i18n", "articles.license");
+    licenseNotice.appendChild(licenseText);
+    licenseNotice.appendChild(document.createTextNode(" "));
+    var licenseLink = createArticleElement("a", "", "CC BY 4.0");
+    licenseLink.href = "https://creativecommons.org/licenses/by/4.0/";
+    licenseLink.target = "_blank";
+    licenseLink.rel = "noopener noreferrer";
+    licenseNotice.appendChild(licenseLink);
+    return licenseNotice;
 }
 
 // Render a deliberately small, safe Markdown subset using DOM APIs and text nodes.

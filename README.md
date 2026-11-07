@@ -5,7 +5,6 @@
 ## Binder Official Website
 
 [![Author: ChepleBob](https://img.shields.io/badge/Author-ChepleBob-00B4D8)](https://github.com/ChepleBob30)
-[![License: Apache v2](https://img.shields.io/badge/License-Apache%20v2-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 
 English | [简体中文](README_zh-CN.md)
 
@@ -17,7 +16,7 @@ English | [简体中文](README_zh-CN.md)
 - [Overview](#overview)
 - [How to Publish an Article](#how-to-publish-an-article)
 - [Documentation](docs/README.md)
-- [License](#license)
+- [Copyright](#copyright)
 - [Closing](#closing)
 
 ---
@@ -59,9 +58,9 @@ The short workflow is: write Chinese and English Markdown files, convert them to
 
 ---
 
-## License
+## Copyright
 
-[Apache v2](LICENSE), Copyright 2026 ChepleBob.
+Copyright © 2026 Binder, All rights reserved.
 
 ---
 
